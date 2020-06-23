@@ -24,3 +24,13 @@ function(spec){
   plot(myData$Sepal.Length, myData$Petal.Length,
        main=title, xlab="Sepal Length", ylab="Petal Length")
 }
+
+#' @post /postit
+function(req, id, name){
+  list(
+    id = id,
+    name = name,
+    raw = req$postBody
+  )
+}
+
