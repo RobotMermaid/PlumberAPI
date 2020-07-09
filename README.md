@@ -12,7 +12,7 @@ in the terminal:
 `Starting server to listen on port 3229`.  
 The port number will change every time you restart server   
 unless you add a port number such as `port=8008` to `pr$run()`
-6. Open `http://localhost:8008/echo??msg=ohai` in your browser
+6. Open `http://localhost:8008/echo?msg=ohai` in your browser
 7. It will return a response `{"msg": [ "The message is: 'ohai'"]}`
 8. To stop your server `^C`
 
